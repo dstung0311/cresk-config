@@ -7,6 +7,6 @@
 #   - cresk_100
 ---
 board:
-  - blackpill_f401cc
+  - blackpill_f411ce
 shield:
   - cresk_v2
