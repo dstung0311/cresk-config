@@ -22,14 +22,6 @@
 };
 
 / {
-	behaviors {
-		mouse_scroll_encoder: mouse_scroll_encoder {
-			compatible = "zmk,behavior-sensor-rotate";
-			#sensor-binding-cells = <0>;
-			bindings = <&msc MOVE_DOWN>, <&msc MOVE_UP>;
-		};
-	};
-
 	keymap {
 		compatible = "zmk,keymap";
 
