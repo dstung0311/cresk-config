@@ -43,7 +43,7 @@
                                         &lt LOWER TAB  &kp SPACE     &lt DEFAULT ENTER  &lt RAISE BSPC
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &mouse_scroll_encoder>;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
 		};
 
 		lower_layer {
